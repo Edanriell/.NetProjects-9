@@ -1,0 +1,6 @@
+@MockDatabaseWithBogus_HostAddress = http://localhost:5004
+
+GET {{MockDatabaseWithBogus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
